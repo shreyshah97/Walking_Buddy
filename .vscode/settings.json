@@ -1,0 +1,11 @@
+{
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "eslint.run": "onSave",
+    "eslint.format.enable": true,
+    "prettier.useEditorConfig": false,
+    "prettier.useTabs": true,
+    "prettier.vueIndentScriptAndStyle": true,
+    "git.ignoreLimitWarning": true
+}

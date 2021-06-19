@@ -16,7 +16,7 @@ public class UserService {
 
         Optional<User> user=userRepository.findById(email);
         if(user.isPresent()){
-
+            System.out.println(user.get().getEmail());
             if(password.equals(user.get().getPassword()))
                 return "200";
             return "300";
